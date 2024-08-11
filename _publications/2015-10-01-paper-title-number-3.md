@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 3"
+title: "Integrated Ensemble Learning for Remote Health Monitoring"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2023-12-05-ensemble-learning-health-monitoring
+excerpt: 'This paper explores the application of ensemble learning techniques for remote health monitoring, integrating multiple machine learning models for enhanced prediction accuracy.'
+date: 2023-12-05
+venue: '25th International Multitopic Conference (INMIC 23), Lahore, Pakistan'
+slidesurl: ''
+paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u-x6o8ySG0sC'
+citation: 'S.M. Hussain, Samiya Ali Zaidi, Afsah Hyder, Dr. M. Mobeen Movania. (2023). &quot;Integrated Ensemble Learning for Remote Health Monitoring.&quot; <i>25th International Multitopic Conference (INMIC 23)</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper presents a novel approach to remote health monitoring by integrating ensemble learning techniques. The study focuses on combining predictions from multiple machine learning models to improve the accuracy and reliability of health monitoring systems.
+
+---

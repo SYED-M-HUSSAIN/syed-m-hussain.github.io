@@ -1,12 +1,15 @@
 ---
-title: "Paper Title Number 4"
+title: "Arabic Phoneme Classification through Ensemble Techniques"
 collection: publications
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2023-08-20-arabic-phoneme-classification
+excerpt: 'This research investigates the classification of Arabic phonemes using ensemble techniques, aiming to improve the accuracy of phoneme recognition for Arabic language processing.'
+date: 2023-08-20
+venue: '5th International Conference on Advancements in Computational Sciences, Lahore, Pakistan'
+slidesurl: ''
+paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u5HHmVD_uO8C'
+citation: 'S.M. Hussain, Muhammad Najeeb Jilani, Munim Ul Haq, Dr. Muhammad Shahid Shaikh. (2023). &quot;Arabic Phoneme Classification through Ensemble Techniques.&quot; <i>5th International Conference on Advancements in Computational Sciences</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The paper explores the application of ensemble techniques in classifying Arabic phonemes. The approach aims to enhance the accuracy and efficiency of phoneme recognition, with implications for Arabic language processing.
+
+---

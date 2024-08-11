@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Advancing Real-Time Camouflaged Object Detection with YOLOv8"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-09-15-camouflaged-object-detection
+excerpt: 'This paper discusses advancements in real-time camouflaged object detection using YOLOv8, addressing challenges in diverse environments such as military, wildlife conservation, and surveillance.'
+date: 2024-09-15
+venue: '2024 6th International Conference on Advances in Computer Vision, Image, and Virtualization, Sanya, China'
+slidesurl: ''
+paperurl: ''
+citation: 'S.M. Hussain, Afsah Hyder, Samiya Ali Zaidi, S.M. Ali Rizvi, Dr. Muhammad Farhan. (2024). &quot;Advancing Real-Time Camouflaged Object Detection with YOLOv8.&quot; <i>2024 6th International Conference on Advances in Computer Vision, Image, and Virtualization</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper presents advanced techniques for detecting camouflaged objects in real-time using the YOLOv8 model. It addresses the complexities and challenges of detecting objects that are designed to blend into their environments, with applications in military, wildlife conservation, and surveillance.
+
+---

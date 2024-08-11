@@ -37,14 +37,14 @@ author:
   stackoverflow    : "1234567/syed-muhammad-hussain"  # Replace with your Stack Overflow profile
 
   # Social media
-  bluesky          : "syedhussain.bsky.app" # Replace this with your Bluesky username
+  bluesky          : # Replace this with your Bluesky username
   facebook         : # If applicable
   flickr           : # If applicable
   foursquare       : # If applicable
   goodreads        : # If applicable
   google_plus      : # Deprecated
   keybase          : # If applicable
-  instagram        : "syed_m_hussain"  # Replace with your Instagram username
+  instagram        : # Replace with your Instagram username
   lastfm           : # If applicable
   linkedin         : "https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/"  # Replace with your LinkedIn username
   mastodon         : # URL if you use it
@@ -52,14 +52,14 @@ author:
   pinterest        : # If applicable
   soundcloud       : # If applicable
   steam            : # If applicable
-  telegram         : "https://t.me/syedhussain"  # Replace with your Telegram URL
+  telegram         :  # Replace with your Telegram URL
   tumblr           : # If applicable
-  twitter          : "syedhussain"  # Replace with your Twitter/X username
+  twitter          : # Replace with your Twitter/X username
   vine             : # Deprecated
   weibo            : # If applicable
   wikipedia        : # If you have a Wikipedia page
   xing             : # If applicable
-  youtube          : "syedhussain"  # Replace with your YouTube username
+  youtube          : # Replace with your YouTube username
   zhihu            : # If applicable
 
 # Site Settings

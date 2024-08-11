@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
-permalink: https://syed-m-hussain.github.io/cv/
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume

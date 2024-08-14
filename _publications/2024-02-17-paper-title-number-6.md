@@ -7,5 +7,5 @@ date: 2024-08-20
 venue: '21th International Bhurban Conference on Applied Sciences and Technology (IBCAST 23), Islamabad, Pakistan'
 slidesurl: ''
 paperurl: ''
-citation: 'Syed Muhammad Hussain, Samiya Ali Zaidi, Afsah Hyder, Syed Muhammad Ali Rizvi, Muhammad Farhan. (2024). &quot;Enhanced Camouflaged Object Detection for Agricultural Pest Management: Insights from Unified Benchmark Dataset Analysis.&quot; <i>School of Science and Engineering, Habib University</i>.'
+citation: 'S.M. Hussain, Samiya Ali Zaidi, Afsah Hyder, Syed Muhammad Ali Rizvi, Dr. Muhammad Farhan. (2024). &quot;Enhanced Camouflaged Object Detection for Agricultural Pest Management: Insights from Unified Benchmark Dataset Analysis.&quot; <i>School of Science and Engineering, Habib University</i>.'
 ---

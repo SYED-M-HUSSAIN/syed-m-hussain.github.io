@@ -7,7 +7,7 @@ date: 2024-08-20
 venue: '50th IEEE Industrial Electronics Conference (IECON), 2024'
 slidesurl: ''
 paperurl: 'https://www.iecon-2024.org'
-citation: 'Syed Muhammad Hussain, Syed Muhammad Daniyal Murtaza Zaidi, Ahmed Atif, Laiba Ahmed, Qasim Pasta, Basit Memon. (2024). &quot;Navigating the Maze Environment in ROS-2: An Experimental Comparison of Global and Local Planners for Dynamic Trajectory Planning in Mobile Robots.&quot; <i>50th IEEE Industrial Electronics Conference (IECON)</i>.'
+citation: 'S.M. Hussain, Syed Muhammad Daniyal Murtaza Zaidi, Ahmed Atif, Laiba Ahmed, Dr. Qasim Pasta, Dr. Basit Memon. (2024). &quot;Navigating the Maze Environment in ROS-2: An Experimental Comparison of Global and Local Planners for Dynamic Trajectory Planning in Mobile Robots.&quot; <i>50th IEEE Industrial Electronics Conference (IECON)</i>.'
 ---
 A critical task in the quickly developing field of robotics is efficient
 path planning in dynamic environments. Within the framework

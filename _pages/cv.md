@@ -100,7 +100,7 @@ Relevant Coursework: Deep Learning, Software Engineering, Machine Learning, Algo
   (Acceptance Letter)
 
 - **Automated Video Summarization for Suspicious Event Detection in Surveillance Systems**  
-  *S.M. Hussain, Azeem Haider, Affan Habib, Dr. M. Farhan.*  
+  *S.M. Hussain, Azeem Haider, Affan Habib, Dr. Muhammad Farhan.*  
   20th International Bhurban Conference on Applied Sciences and Technology IBCAST 23. Islamabad, Pakistan.  
   (Under Proceeding)
 
@@ -121,7 +121,7 @@ Relevant Coursework: Deep Learning, Software Engineering, Machine Learning, Algo
 
 - **Enhanced Camouflaged Object Detection for Agricultural Pest Management: Insights from Unified Benchmark Dataset Analysis**  
   *Syed Muhammad Hussain, Samiya Ali Zaidi, Afsah Hyder, Syed Muhammad Ali Rizvi, Muhammad Farhan.*  
-  21th International Bhurban Conference on Applied Sciences and Technology IBCAST 23. Islamabad, Pakistan.  
+  21th International Bhurban Conference on Applied Sciences and Technology IBCAST 24. Islamabad, Pakistan.  
  (Under Proceeding)
 
 ---

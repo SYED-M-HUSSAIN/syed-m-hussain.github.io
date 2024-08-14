@@ -6,7 +6,7 @@ excerpt: 'This paper explores the application of ensemble learning techniques fo
 date: 2023-12-05
 venue: '25th International Multitopic Conference (INMIC 23), Lahore, Pakistan'
 slidesurl: ''
-paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u-x6o8ySG0sC'
+paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u5HHmVD_uO8C'
 citation: 'S.M. Hussain, Samiya Ali Zaidi, Afsah Hyder, Dr. M. Mobeen Movania. (2023). &quot;Integrated Ensemble Learning for Remote Health Monitoring.&quot; <i>25th International Multitopic Conference (INMIC 23)</i>.'
 ---
 

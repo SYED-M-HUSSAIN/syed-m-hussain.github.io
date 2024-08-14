@@ -6,7 +6,7 @@ excerpt: 'This research investigates the classification of Arabic phonemes using
 date: 2023-08-20
 venue: '5th International Conference on Advancements in Computational Sciences, Lahore, Pakistan'
 slidesurl: ''
-paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u5HHmVD_uO8C'
+paperurl: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u-x6o8ySG0sC'
 citation: 'S.M. Hussain, Muhammad Najeeb Jilani, Munim Ul Haq, Dr. Muhammad Shahid Shaikh. (2023). &quot;Arabic Phoneme Classification through Ensemble Techniques.&quot; <i>5th International Conference on Advancements in Computational Sciences</i>.'
 ---
 

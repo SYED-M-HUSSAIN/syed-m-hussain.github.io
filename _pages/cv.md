@@ -114,6 +114,16 @@ Relevant Coursework: Deep Learning, Software Engineering, Machine Learning, Algo
   5th International Conference on Advancements in Computational Sciences. Lahore, Pakistan.  
   [Paper Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TqMFlMYAAAAJ&citation_for_view=TqMFlMYAAAAJ:u5HHmVD_uO8C)
 
+- **Navigating the Maze Environment in ROS-2: An Experimental Comparison of Global and Local Planners for Dynamic Trajectory Planning in Mobile Robots**  
+  *S.M. Hussain, Syed Muhammad Daniyal Murtaza Zaidi, Ahmed Atif, Laiba Ahmed, Dr. Qasim Pasta, Dr. Basit Memon.*  
+  50th IEEE Industrial Electronics Conference (IECON). Chicago, USA.  
+  (Acceptance Letter)
+
+- **Enhanced Camouflaged Object Detection for Agricultural Pest Management: Insights from Unified Benchmark Dataset Analysis**  
+  *Syed Muhammad Hussain, Samiya Ali Zaidi, Afsah Hyder, Syed Muhammad Ali Rizvi, Muhammad Farhan.*  
+  21th International Bhurban Conference on Applied Sciences and Technology IBCAST 23. Islamabad, Pakistan.  
+ (Under Proceeding)
+
 ---
 
 ## Extra-Curriculars

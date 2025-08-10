@@ -1,0 +1,236 @@
+/* Fix for About Me page layout */
+
+// Ensure proper page layout without boxing
+.page {
+  @include breakpoint($large) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 2em;
+    align-items: start;
+  }
+  
+  @include breakpoint($medium) {
+    display: block;
+  }
+}
+
+// Fix the main content area
+.page__content {
+  // Remove any box styling
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  
+  // Ensure text flows naturally
+  max-width: 100%;
+  
+  @include breakpoint($large) {
+    grid-column: 2;
+    min-width: 0; // Prevent grid blowout
+  }
+  
+  // Fix heading spacing
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    clear: both;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  
+  // Fix paragraph spacing
+  p {
+    margin-bottom: 1em;
+    line-height: 1.7;
+  }
+  
+  // Fix list spacing
+  ul, ol {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+// Ensure sidebar is properly positioned
+.sidebar {
+  @include breakpoint($large) {
+    grid-column: 1;
+    grid-row: 1;
+    position: sticky;
+    top: 2em;
+    height: fit-content;
+    overflow-y: auto;
+    max-height: calc(100vh - 4em);
+  }
+  
+  @include breakpoint($medium) {
+    margin-bottom: 2em;
+  }
+}
+
+// Fix archive layout (main container)
+.archive {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-bottom: 2em;
+  
+  @include breakpoint($large) {
+    grid-column: 2;
+    float: none !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+}
+
+// Remove any wrapper box styling
+.wrapper {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+// Fix initial-content wrapper
+.initial-content {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  
+  .page {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+// Ensure no boxes around content sections
+section {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Fix any article tags
+article {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+// Ensure main element doesn't have boxes
+main {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+// Fix layout container
+#main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em 1em;
+  background-color: $dark-bg !important;
+  
+  @include breakpoint($x-large) {
+    max-width: 1280px;
+  }
+}
+
+// Ensure text is not constrained
+.page__inner-wrap {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  
+  .page__content {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+}
+
+// Fix any panel or card styling that might be applied
+.panel, .card, .box {
+  &.page__content {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+
+// Ensure home page layout is clean
+.layout--home {
+  .archive {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .page__content {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+// Fix splash and single layouts
+.layout--splash,
+.layout--single {
+  .page__content {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+
+// Responsive adjustments
+@include breakpoint($small) {
+  .page {
+    padding: 0 0.5em;
+  }
+  
+  .page__content {
+    font-size: 0.95em;
+  }
+}
+
+@include breakpoint($medium) {
+  .page {
+    padding: 0 1em;
+  }
+  
+  .page__content {
+    font-size: 1em;
+  }
+}
+
+// Ensure dark theme compatibility
+body.dark-theme,
+html.dark-theme {
+  .page__content,
+  .archive,
+  .wrapper,
+  .initial-content,
+  section,
+  article,
+  main {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}

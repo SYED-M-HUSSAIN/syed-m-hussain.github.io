@@ -1,0 +1,515 @@
+/* Dracula Theme Color Palette */
+
+// Dracula color variables
+$dracula-bg: #282a36;
+$dracula-current-line: #44475a;
+$dracula-selection: #44475a;
+$dracula-foreground: #f8f8f2;
+$dracula-comment: #6272a4;
+$dracula-cyan: #8be9fd;
+$dracula-green: #50fa7b;
+$dracula-orange: #ffb86c;
+$dracula-pink: #ff79c6;
+$dracula-purple: #bd93f9;
+$dracula-red: #ff5555;
+$dracula-yellow: #f1fa8c;
+
+// Apply Dracula theme globally
+body {
+  background-color: $dracula-bg !important;
+  color: $dracula-foreground !important;
+}
+
+// Headings - Use pink/purple for titles
+h1, h2, h3, h4, h5, h6 {
+  color: $dracula-pink !important;
+  font-weight: 600;
+  
+  a {
+    color: $dracula-pink !important;
+    
+    &:hover {
+      color: $dracula-purple !important;
+    }
+  }
+}
+
+// Links - Use cyan for all links
+a {
+  color: $dracula-cyan !important;
+  text-decoration: none;
+  
+  &:hover, &:focus {
+    color: $dracula-green !important;
+    text-decoration: underline;
+  }
+  
+  &:visited {
+    color: $dracula-purple !important;
+  }
+}
+
+// Regular text
+p, li, dl, dt, dd, span, div {
+  color: $dracula-foreground !important;
+}
+
+// Secondary/muted text
+.text-muted, .archive__item-excerpt, .author__bio {
+  color: $dracula-comment !important;
+}
+
+// Header and navigation
+.masthead {
+  background-color: darken($dracula-bg, 5%) !important;
+  border-bottom: 1px solid $dracula-current-line !important;
+  
+  a {
+    color: $dracula-foreground !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+    }
+  }
+}
+
+.greedy-nav {
+  background: darken($dracula-bg, 5%) !important;
+  
+  a {
+    color: $dracula-foreground !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+    }
+    
+    &.site-title {
+      color: $dracula-pink !important;
+      font-weight: bold;
+    }
+  }
+  
+  .visible-links a:before {
+    background: $dracula-cyan !important;
+  }
+}
+
+// Main content area
+#main {
+  background-color: $dracula-bg !important;
+  color: $dracula-foreground !important;
+}
+
+// Page content
+.page__content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $dracula-pink !important;
+  }
+  
+  p, li {
+    color: $dracula-foreground !important;
+  }
+  
+  a {
+    color: $dracula-cyan !important;
+    
+    &:hover {
+      color: $dracula-green !important;
+    }
+  }
+  
+  strong, b {
+    color: $dracula-orange !important;
+  }
+  
+  em, i {
+    color: $dracula-yellow !important;
+  }
+  
+  blockquote {
+    color: $dracula-comment !important;
+    border-left: 4px solid $dracula-purple !important;
+    background-color: rgba($dracula-current-line, 0.3) !important;
+  }
+}
+
+// Archive pages
+.archive__item {
+  .archive__item-title {
+    color: $dracula-pink !important;
+    
+    a {
+      color: $dracula-pink !important;
+      
+      &:hover {
+        color: $dracula-purple !important;
+      }
+    }
+  }
+  
+  .archive__item-excerpt {
+    color: $dracula-comment !important;
+  }
+}
+
+// Sidebar and author profile
+.sidebar {
+  background-color: transparent !important;
+  
+  h2, h3, h4 {
+    color: $dracula-pink !important;
+  }
+  
+  p, li {
+    color: $dracula-foreground !important;
+  }
+  
+  a {
+    color: $dracula-cyan !important;
+    
+    &:hover {
+      color: $dracula-green !important;
+    }
+  }
+}
+
+.author__name {
+  color: $dracula-pink !important;
+  font-weight: bold;
+}
+
+.author__bio {
+  color: $dracula-comment !important;
+  
+  p {
+    color: $dracula-comment !important;
+  }
+}
+
+.author__avatar {
+  img {
+    border: 3px solid $dracula-purple !important;
+  }
+}
+
+.author__urls {
+  background-color: $dracula-current-line !important;
+  border: 1px solid $dracula-purple !important;
+  
+  a {
+    color: $dracula-foreground !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+      background-color: rgba($dracula-purple, 0.1) !important;
+    }
+  }
+}
+
+// Social icons
+.social-icons {
+  a {
+    color: $dracula-foreground !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+    }
+  }
+  
+  .fa, .fas, .far, .fab, .ai {
+    color: $dracula-comment !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+    }
+  }
+}
+
+// Author URLs list
+.author__urls.social-icons {
+  li {
+    color: $dracula-foreground !important;
+    
+    // Location and employer (non-link items)
+    &:not(:has(a)) {
+      color: $dracula-orange !important;
+    }
+    
+    a {
+      color: $dracula-foreground !important;
+      
+      &:hover {
+        color: $dracula-cyan !important;
+      }
+    }
+    
+    // Icons
+    .fa-fw {
+      color: $dracula-purple !important;
+    }
+  }
+}
+
+// Footer
+.page__footer {
+  background-color: darken($dracula-bg, 5%) !important;
+  color: $dracula-comment !important;
+  border-top: 1px solid $dracula-current-line !important;
+  
+  a {
+    color: $dracula-cyan !important;
+    
+    &:hover {
+      color: $dracula-green !important;
+    }
+  }
+}
+
+// Code blocks
+code, pre {
+  background-color: $dracula-current-line !important;
+  color: $dracula-foreground !important;
+  border: 1px solid $dracula-purple !important;
+}
+
+.highlight {
+  background-color: $dracula-current-line !important;
+  
+  pre {
+    background-color: $dracula-current-line !important;
+  }
+}
+
+// Tables
+table {
+  background-color: $dracula-bg !important;
+  border: 1px solid $dracula-purple !important;
+  
+  th {
+    background-color: $dracula-current-line !important;
+    color: $dracula-pink !important;
+    border: 1px solid $dracula-purple !important;
+  }
+  
+  td {
+    border: 1px solid $dracula-comment !important;
+    color: $dracula-foreground !important;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba($dracula-current-line, 0.3) !important;
+  }
+}
+
+// Forms and inputs
+input, textarea, select {
+  background-color: $dracula-current-line !important;
+  color: $dracula-foreground !important;
+  border: 1px solid $dracula-purple !important;
+  
+  &:focus {
+    border-color: $dracula-cyan !important;
+    background-color: darken($dracula-current-line, 5%) !important;
+  }
+}
+
+// Buttons
+.btn {
+  background-color: $dracula-purple !important;
+  color: $dracula-bg !important;
+  border: 1px solid $dracula-purple !important;
+  font-weight: bold;
+  
+  &:hover {
+    background-color: $dracula-pink !important;
+    border-color: $dracula-pink !important;
+    color: $dracula-bg !important;
+  }
+  
+  &--primary {
+    background-color: $dracula-green !important;
+    border-color: $dracula-green !important;
+  }
+  
+  &--warning {
+    background-color: $dracula-orange !important;
+    border-color: $dracula-orange !important;
+  }
+  
+  &--danger {
+    background-color: $dracula-red !important;
+    border-color: $dracula-red !important;
+  }
+  
+  &--info {
+    background-color: $dracula-cyan !important;
+    border-color: $dracula-cyan !important;
+  }
+}
+
+// Notice blocks
+.notice {
+  background-color: rgba($dracula-current-line, 0.5) !important;
+  border: 1px solid $dracula-purple !important;
+  color: $dracula-foreground !important;
+  
+  h4 {
+    color: $dracula-pink !important;
+  }
+  
+  &--primary {
+    background-color: rgba($dracula-cyan, 0.1) !important;
+    border-color: $dracula-cyan !important;
+  }
+  
+  &--info {
+    background-color: rgba($dracula-cyan, 0.1) !important;
+    border-color: $dracula-cyan !important;
+  }
+  
+  &--warning {
+    background-color: rgba($dracula-orange, 0.1) !important;
+    border-color: $dracula-orange !important;
+  }
+  
+  &--success {
+    background-color: rgba($dracula-green, 0.1) !important;
+    border-color: $dracula-green !important;
+  }
+  
+  &--danger {
+    background-color: rgba($dracula-red, 0.1) !important;
+    border-color: $dracula-red !important;
+  }
+}
+
+// Pagination
+.pagination {
+  a, span {
+    background-color: $dracula-current-line !important;
+    color: $dracula-foreground !important;
+    border: 1px solid $dracula-purple !important;
+    
+    &:hover {
+      background-color: $dracula-purple !important;
+      color: $dracula-bg !important;
+    }
+  }
+  
+  .current {
+    background-color: $dracula-pink !important;
+    color: $dracula-bg !important;
+    border-color: $dracula-pink !important;
+  }
+}
+
+// Cards and panels
+.feature__wrapper {
+  background-color: $dracula-bg !important;
+  border: 1px solid $dracula-purple !important;
+}
+
+.feature__item {
+  background-color: $dracula-current-line !important;
+  border: 1px solid $dracula-purple !important;
+  
+  &:hover {
+    background-color: rgba($dracula-purple, 0.1) !important;
+    border-color: $dracula-cyan !important;
+  }
+  
+  .archive__item-title {
+    color: $dracula-pink !important;
+  }
+  
+  .archive__item-excerpt {
+    color: $dracula-comment !important;
+  }
+}
+
+// TOC
+.toc {
+  background-color: rgba($dracula-current-line, 0.5) !important;
+  border: 1px solid $dracula-purple !important;
+  
+  .nav__title {
+    background-color: $dracula-current-line !important;
+    color: $dracula-pink !important;
+  }
+  
+  a {
+    color: $dracula-foreground !important;
+    
+    &:hover {
+      color: $dracula-cyan !important;
+    }
+  }
+}
+
+// Selection color
+::selection {
+  background-color: $dracula-selection !important;
+  color: $dracula-foreground !important;
+}
+
+::-moz-selection {
+  background-color: $dracula-selection !important;
+  color: $dracula-foreground !important;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: $dracula-bg !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $dracula-purple !important;
+  border-radius: 6px;
+  
+  &:hover {
+    background: $dracula-pink !important;
+  }
+}
+
+// Portfolio and publication specific
+.portfolio-item, .publication-item {
+  background-color: $dracula-current-line !important;
+  border: 1px solid $dracula-purple !important;
+  
+  &:hover {
+    background-color: rgba($dracula-purple, 0.1) !important;
+    border-color: $dracula-cyan !important;
+  }
+  
+  h2, h3 {
+    color: $dracula-pink !important;
+  }
+  
+  .excerpt {
+    color: $dracula-comment !important;
+  }
+}
+
+// Ensure background doesn't show through
+html {
+  background-color: $dracula-bg !important;
+}
+
+// Page titles
+.page__title {
+  color: $dracula-pink !important;
+}
+
+// Meta information (dates, read time, etc.)
+.page__meta {
+  color: $dracula-comment !important;
+  
+  a {
+    color: $dracula-purple !important;
+  }
+}

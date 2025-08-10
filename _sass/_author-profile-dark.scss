@@ -1,0 +1,409 @@
+/* Author Profile Dark Theme Fixes */
+
+// Author profile sidebar
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 110px;
+    border-radius: 50%;
+    border: 3px solid #30363d !important;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid #30363d !important;
+    }
+  }
+}
+
+.author__content {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 25px;
+  line-height: 1;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.author__name {
+  margin: 0;
+  color: #c9d1d9 !important;
+  
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.sidebar .author__name {
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+  color: #c9d1d9 !important;
+}
+
+.author__bio {
+  margin: 0;
+  color: #8b949e !important;
+  
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #8b949e !important;
+    margin-bottom: 0;
+  }
+}
+
+.author__urls-wrapper {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: $sans-serif;
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
+
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
+  }
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  button {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+    color: #c9d1d9 !important;
+    margin-bottom: 0;
+
+    &:before {
+      @supports (pointer-events: none) {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+    }
+
+    &:hover {
+      background-color: #21262d !important;
+      color: #58a6ff !important;
+    }
+
+    &:focus {
+      outline: thin solid #58a6ff !important;
+    }
+  }
+}
+
+.author__urls {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #30363d !important;
+  border-radius: 4px;
+  background: #161b22 !important;
+  z-index: -1;
+  cursor: default;
+
+  @include breakpoint($large) {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+  }
+
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: #30363d transparent !important;
+    z-index: 0;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: #161b22 transparent !important;
+    z-index: 1;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  li {
+    white-space: nowrap;
+    color: #c9d1d9 !important;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #c9d1d9 !important;
+    font-size: $type-size-6;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: #58a6ff !important;
+      background-color: transparent !important;
+    }
+  }
+}
+
+// Social icons specific fixes
+.social-icons {
+  .fa,
+  .fas,
+  .far,
+  .fab {
+    color: #8b949e !important;
+  }
+
+  .fa-behance,
+  .fa-behance-square {
+    color: #8b949e !important;
+  }
+
+  .fa-bitbucket,
+  .fa-bitbucket-square {
+    color: #8b949e !important;
+  }
+
+  .fa-dribbble,
+  .fa-dribbble-square {
+    color: #8b949e !important;
+  }
+
+  .fa-facebook,
+  .fa-facebook-square,
+  .fa-facebook-f {
+    color: #8b949e !important;
+  }
+
+  .fa-flickr {
+    color: #8b949e !important;
+  }
+
+  .fa-foursquare {
+    color: #8b949e !important;
+  }
+
+  .fa-github,
+  .fa-github-alt,
+  .fa-github-square {
+    color: #8b949e !important;
+  }
+
+  .fa-google-plus,
+  .fa-google-plus-square {
+    color: #8b949e !important;
+  }
+
+  .fa-instagram {
+    color: #8b949e !important;
+  }
+
+  .fa-lastfm,
+  .fa-lastfm-square {
+    color: #8b949e !important;
+  }
+
+  .fa-linkedin,
+  .fa-linkedin-in {
+    color: #8b949e !important;
+  }
+
+  .fa-pinterest,
+  .fa-pinterest-p,
+  .fa-pinterest-square {
+    color: #8b949e !important;
+  }
+
+  .fa-rss,
+  .fa-rss-square {
+    color: #8b949e !important;
+  }
+
+  .fa-soundcloud {
+    color: #8b949e !important;
+  }
+
+  .fa-stack-exchange,
+  .fa-stack-overflow {
+    color: #8b949e !important;
+  }
+
+  .fa-tumblr,
+  .fa-tumblr-square {
+    color: #8b949e !important;
+  }
+
+  .fa-twitter,
+  .fa-twitter-square {
+    color: #8b949e !important;
+  }
+
+  .fa-vimeo,
+  .fa-vimeo-square,
+  .fa-vimeo-v {
+    color: #8b949e !important;
+  }
+
+  .fa-vine {
+    color: #8b949e !important;
+  }
+
+  .fa-youtube,
+  .fa-youtube-square,
+  .fa-youtube-play {
+    color: #8b949e !important;
+  }
+
+  .fa-xing,
+  .fa-xing-square {
+    color: #8b949e !important;
+  }
+}
+
+// Fix author links list styling
+.author__urls.social-icons {
+  li {
+    background-color: transparent !important;
+    
+    &::before {
+      content: none !important;
+    }
+  }
+  
+  a {
+    color: #c9d1d9 !important;
+    background-color: transparent !important;
+    
+    &:hover {
+      color: #58a6ff !important;
+      background-color: transparent !important;
+      text-decoration: none !important;
+    }
+    
+    .fa,
+    .fas,
+    .far,
+    .fab,
+    .ai {
+      color: #8b949e !important;
+      margin-right: 5px;
+    }
+    
+    &:hover .fa,
+    &:hover .fas,
+    &:hover .far,
+    &:hover .fab,
+    &:hover .ai {
+      color: #58a6ff !important;
+    }
+  }
+}
+
+// Academic icons
+.ai {
+  color: #8b949e !important;
+}
+
+.ai-google-scholar,
+.ai-google-scholar-square {
+  color: #8b949e !important;
+}
+
+.ai-orcid,
+.ai-orcid-square {
+  color: #8b949e !important;
+}
+
+.ai-researchgate,
+.ai-researchgate-square {
+  color: #8b949e !important;
+}
+
+// Fix location and employer text
+.author__urls.social-icons li {
+  color: #c9d1d9 !important;
+  
+  // Location icon
+  .fa-fw.fa-map-marker-alt {
+    color: #8b949e !important;
+  }
+  
+  // Building/employer icon  
+  .fa-fw.fa-building {
+    color: #8b949e !important;
+  }
+  
+  // Link icon
+  .fa-fw.fa-link {
+    color: #8b949e !important;
+  }
+  
+  // Email icon
+  .fa-fw.fa-envelope {
+    color: #8b949e !important;
+  }
+}
+
+// Ensure text after icons is visible
+.author__urls.social-icons li a span,
+.author__urls.social-icons li span {
+  color: #c9d1d9 !important;
+}

@@ -6,31 +6,65 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I'm **Syed Muhammad Hussain**, a Machine Learning Engineer specializing in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) systems, and AI-driven automation. Currently, I'm pushing the boundaries of what's possible with AI at **Beam AI**.
+
+### 🚀 What I Do
+
+At the intersection of machine learning engineering, prompt design, and evaluation science, I develop AI systems that transform how enterprises operate. My work focuses on:
+
+- **LLM Engineering**: Building custom evaluation metrics to assess model outputs for hallucinations, factual accuracy, and task alignment
+- **RAG Pipelines**: Architecting high-performance retrieval systems that achieve 40% improved search accuracy
+- **AI Agents**: Creating autonomous systems capable of complex multi-step reasoning using CoT and ToT prompting
+- **MLOps**: Designing scalable pipelines for seamless model deployment with 99.9% uptime
+
+### 💡 Current Focus
+
+I'm particularly passionate about making LLMs more reliable and controllable in production environments. This includes:
+
+- Developing deterministic code interpreters for safe execution of model-generated code
+- Implementing guardrails frameworks to ensure compliance and ethical standards
+- Engineering meta-prompting strategies for complex task orchestration
+- Contributing to open-source projects like LangChain (check out my PRs [#934](https://github.com/langchain-ai/langchain-google/pull/934) and [#931](https://github.com/langchain-ai/langchain-google/pull/931))
+
+### 🎓 Research & Academic Background
+
+I graduated from **Habib University** (2024) with a BS in Computer Science and a minor in Electrical and Computer Engineering. My research journey has been diverse and impactful:
+
+- **Cognitive Systems Research**: Currently working with the Empathic Computing Lab at the University of South Australia on EEG signal analysis for user preference detection
+- **Computer Vision**: Led research on camouflaged object detection using GANs and YOLOv8, with applications in military surveillance and agricultural pest management
+- **Published Work**: 5+ papers at IEEE conferences including ICRAI, IBCAST, ICACS, and INMIC
+
+### 🛠️ Technical Expertise
+
+**Languages & Frameworks**: Python, PyTorch, TensorFlow, Keras, LangChain, LlamaIndex  
+**AI/ML**: Deep Learning, NLP, Computer Vision, RAG, Prompt Engineering, MLOps  
+**Cloud & Tools**: Azure AI Services, Docker, MLflow, Qdrant, PGVector  
+**Specializations**: LLM Evaluation, Guardrails, Multi-Agent Systems, Synthetic Data Generation
+
+### 🌟 Key Projects
+
+1. **OpenRobotics Lab**: Founded an open-source learning platform for robotics education, consolidating resources for learners worldwide
+2. **Enterprise RAG System**: Built a production-ready RAG pipeline processing 10,000+ documents daily with sub-second latency
+3. **Autonomous AI Agents**: Engineered multi-agent systems that reduced manual oversight by 70% for enterprise workflows
+4. **Document Intelligence**: Developed multimodal AI for processing legal and financial documents with 96% extraction accuracy
+
+### 🤝 Let's Connect!
+
+I'm always excited to collaborate on challenging AI problems, especially those involving:
+- Production LLM systems
+- Advanced RAG architectures  
+- AI safety and evaluation
+- Open-source ML projects
+
+Feel free to reach out through [LinkedIn](https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/) or check out my work on [GitHub](https://github.com/SYED-M-HUSSAIN). You can also find my research on [Google Scholar](https://scholar.google.com/citations?user=TqMFlMYAAAAJ&hl=en) and [IEEE Xplore](https://ieeexplore.ieee.org/author/949288735174528).
+
+### 🏆 Recognition
+
+- Fully funded 4-year TOPS scholarship at Habib University
+- Selected as the only research intern from Pakistan at the Empathic Computing Lab
+- Active open-source contributor to LangChain ecosystem
+
 ---
 
-
-
-Welcome! I’m Syed Muhammad Hussain, a dedicated Machine Learning Engineer with a deep specialization in AI-driven solutions. I hold a Bachelor’s degree in Computer Science from Habib University, complemented by a minor in Electrical and Computer Engineering. My professional journey is anchored in the development of cutting-edge AI systems, with a particular focus on deep learning, computer vision, and advanced automation.
-
-Currently, I serve as an Associate Machine Learning Engineer at Beam AI, where I spearhead projects that push the boundaries of AI technology. My work involves designing and deploying Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems, enabling businesses to harness the power of AI for enhanced operational efficiency and domain-specific task automation.
-
-### My Work and Research
-
-My expertise lies at the intersection of theoretical research and practical application. I am deeply involved in the development of intelligent systems that address real-world challenges, from sophisticated object detection algorithms to state-of-the-art segmentation models. My research is particularly focused on camouflaged object detection in complex environments, a critical area with implications across various industries, including agriculture and defense.
-
-In my current role, I combine cutting-edge natural language processing techniques with robust machine learning frameworks to create AI agents capable of performing complex, domain-specific tasks. My approach is highly interdisciplinary, integrating insights from engineering, computer science, and applied research to deliver solutions that are both innovative and impactful.
-
-### My Background
-
-My academic journey began at Habib University, where I earned my Bachelor’s degree in Computer Science. During my studies, I developed a strong foundation in AI and machine learning, participating in a variety of research projects and internships that provided me with hands-on experience in these fields. My work has been recognized at multiple conferences, and I have authored research on topics including camouflaged object detection, ensemble learning for health monitoring, and automated video summarization.
-
-In addition to my academic achievements, I have gained significant industry experience through internships at leading organizations such as Folio3 and Habib Bank. These opportunities allowed me to refine my skills in machine learning, cybersecurity, and software development, equipping me with a broad perspective on the applications of AI across different sectors.
-
-### My Intellectual Community
-
-As a passionate advocate for interdisciplinary collaboration, I actively engage with the broader AI and machine learning communities. My work is informed by a commitment to ethical AI development, transparency, and societal impact. I regularly contribute to academic and professional discourse through conference presentations, publications, and participation in workshops. My intellectual pursuits are not confined to the technical domain; I am also deeply interested in the ethical and social implications of AI, striving to create technologies that are as responsible as they are revolutionary.
-
-Thank you for visiting my portfolio. I invite you to explore my projects, publications, and ongoing research. If you’re interested in collaboration or have any questions, feel free to reach out. Let’s shape the future of AI together!
-
----
-
+*"Building AI systems that are not just intelligent, but reliable, ethical, and transformative for real-world applications."*

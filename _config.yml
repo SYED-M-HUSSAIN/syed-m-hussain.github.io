@@ -12,8 +12,8 @@ repository               : "syedhussain/portfolio-website"
 author:
   avatar           : "profile.jpg"
   name             : "Syed Muhammad Hussain"
-  pronouns         : "he/him"  
-  bio              : "Associate Machine Learning Engineer at Beam AI. Passionate about AI, deep learning, and automation."
+  pronouns         :  
+  bio              : "Machine Learning Engineer at Beam AI specializing in LLMs, RAG systems, and AI automation."
   location         : "Karachi, Pakistan"
   employer         : "Beam AI"
   uri              : "https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/" # If you have a personal website or blog

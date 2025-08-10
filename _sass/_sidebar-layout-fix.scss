@@ -1,0 +1,285 @@
+/* Fix Sidebar Layout and Positioning */
+
+// Main page layout fix
+.page {
+  @include breakpoint($large) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2em 1em;
+  }
+}
+
+// Sidebar positioning fix
+.sidebar {
+  @include breakpoint($large) {
+    flex: 0 0 280px;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    margin-right: 3em;
+    padding: 0;
+    background-color: transparent !important;
+    
+    // Prevent sidebar from expanding
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+  }
+  
+  @include breakpoint($medium) {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  
+  @include breakpoint($small) {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+// Fix sidebar sticky behavior
+.sidebar.sticky {
+  @include breakpoint($large) {
+    position: sticky !important;
+    top: 20px !important;
+    height: fit-content !important;
+    overflow-y: visible !important;
+  }
+}
+
+// Main content area fix
+.archive {
+  @include breakpoint($large) {
+    flex: 1;
+    min-width: 0; // Prevent flex item from growing beyond container
+    max-width: calc(100% - 320px);
+    padding: 0;
+    margin: 0;
+    float: none !important;
+    width: auto !important;
+  }
+  
+  @include breakpoint($medium) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+// Fix author profile within sidebar
+.author__avatar {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1em auto;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #30363d !important;
+  }
+}
+
+.author__content {
+  display: block;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  
+  @include breakpoint($large) {
+    text-align: left;
+  }
+}
+
+.author__name {
+  margin: 0 0 0.5em 0;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #c9d1d9 !important;
+  line-height: 1.2;
+}
+
+.author__bio {
+  margin: 0 0 1em 0;
+  font-size: 0.85em;
+  line-height: 1.4;
+  
+  p {
+    margin: 0;
+    color: #8b949e !important;
+    word-wrap: break-word;
+  }
+}
+
+// Fix author URLs list
+.author__urls-wrapper {
+  position: relative;
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.author__urls {
+  display: block !important;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  background: transparent !important;
+  
+  li {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    
+    // Fix icon alignment
+    .fa, .fas, .far, .fab, .ai {
+      display: inline-block;
+      width: 20px;
+      margin-right: 0.5em;
+      text-align: center;
+      color: #8b949e !important;
+      vertical-align: middle;
+    }
+    
+    // Fix text after icons
+    a, span {
+      display: inline;
+      vertical-align: middle;
+      color: #c9d1d9 !important;
+      text-decoration: none;
+      
+      &:hover {
+        color: #58a6ff !important;
+      }
+    }
+  }
+}
+
+// Ensure content doesn't overlap
+#main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117 !important;
+  min-height: 100vh;
+  
+  // Container for proper spacing
+  > .page {
+    @include breakpoint($large) {
+      display: flex;
+      gap: 3em;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2em 1em;
+    }
+  }
+}
+
+// Fix z-index issues
+.sidebar {
+  z-index: 10;
+}
+
+.archive, .page__content {
+  z-index: 1;
+}
+
+// Prevent content from going under sidebar
+.initial-content {
+  @include breakpoint($large) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+// Mobile responsive fixes
+@include breakpoint($small) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  .archive {
+    width: 100%;
+    padding: 0 1em;
+  }
+  
+  .author__urls {
+    li {
+      font-size: 0.9em;
+    }
+  }
+}
+
+// Fix for home layout specifically
+.layout--home {
+  .page {
+    @include breakpoint($large) {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 3em;
+    }
+  }
+  
+  .sidebar {
+    @include breakpoint($large) {
+      flex-shrink: 0;
+      position: sticky;
+      top: 20px;
+    }
+  }
+  
+  .archive {
+    @include breakpoint($large) {
+      flex-grow: 1;
+      min-width: 0;
+    }
+  }
+}
+
+// Ensure smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Fix any overflow issues
+.sidebar__right {
+  overflow: visible !important;
+}
+
+// Clear floats
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Fix author profile container
+.author-profile {
+  padding: 1em;
+  background-color: rgba(22, 27, 34, 0.5);
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  
+  @include breakpoint($large) {
+    padding: 1.5em;
+  }
+}

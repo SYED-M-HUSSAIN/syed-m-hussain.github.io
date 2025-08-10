@@ -1,0 +1,257 @@
+/* Footer Dark Theme Styling */
+
+// Footer container
+.page__footer {
+  clear: both;
+  margin-top: 3em;
+  padding: 2em 0;
+  background-color: #010409 !important;
+  border-top: 1px solid #30363d !important;
+  color: #8b949e !important;
+  font-size: 0.9em;
+  
+  // Inner footer content
+  footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1em;
+    
+    @include breakpoint($large) {
+      padding: 0 2em;
+    }
+  }
+  
+  // Footer links
+  a {
+    color: #58a6ff !important;
+    text-decoration: none;
+    
+    &:hover {
+      color: #79c0ff !important;
+      text-decoration: underline;
+    }
+    
+    &:visited {
+      color: #8b949e !important;
+    }
+  }
+  
+  // Copyright text
+  .page__footer-copyright {
+    font-size: 0.875em;
+    color: #8b949e !important;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  // Follow section
+  .page__footer-follow {
+    margin-bottom: 1em;
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      
+      li {
+        margin: 0;
+        padding: 0;
+        
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          
+          .fa, .fas, .far, .fab {
+            color: #8b949e !important;
+            font-size: 1.2em;
+            
+            &:hover {
+              color: #58a6ff !important;
+            }
+          }
+        }
+        
+        strong {
+          color: #c9d1d9 !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  
+  // Feed icon
+  .fa-rss-square {
+    color: #8b949e !important;
+    
+    &:hover {
+      color: #f97316 !important; // Orange for RSS
+    }
+  }
+  
+  // Social media icons in footer
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0;
+    
+    a {
+      color: #8b949e !important;
+      font-size: 1.25em;
+      
+      &:hover {
+        color: #58a6ff !important;
+        transform: translateY(-2px);
+        transition: all 0.2s;
+      }
+      
+      .fa-twitter {
+        &:hover {
+          color: #1da1f2 !important;
+        }
+      }
+      
+      .fa-facebook {
+        &:hover {
+          color: #1877f2 !important;
+        }
+      }
+      
+      .fa-linkedin {
+        &:hover {
+          color: #0077b5 !important;
+        }
+      }
+      
+      .fa-github {
+        &:hover {
+          color: #c9d1d9 !important;
+        }
+      }
+      
+      .fa-instagram {
+        &:hover {
+          color: #e4405f !important;
+        }
+      }
+    }
+  }
+  
+  // Powered by section
+  p {
+    color: #8b949e !important;
+    margin: 0.5em 0;
+    
+    small {
+      color: #6e7681 !important;
+      font-size: 0.875em;
+    }
+  }
+  
+  // Footer navigation
+  nav {
+    margin: 1em 0;
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5em;
+      
+      li {
+        margin: 0;
+        
+        a {
+          color: #c9d1d9 !important;
+          font-weight: 500;
+          
+          &:hover {
+            color: #58a6ff !important;
+          }
+        }
+      }
+    }
+  }
+  
+  // Divider
+  hr {
+    border: 0;
+    border-top: 1px solid #30363d !important;
+    margin: 1.5em 0;
+  }
+}
+
+// Fix spacing between footer sections
+.page__footer-follow + .page__footer-copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #30363d;
+}
+
+// Responsive footer
+@include breakpoint($small) {
+  .page__footer {
+    padding: 1.5em 0;
+    
+    footer {
+      padding: 0 0.5em;
+    }
+    
+    .social-icons {
+      justify-content: center;
+    }
+  }
+}
+
+@include breakpoint($medium) {
+  .page__footer {
+    .page__footer-follow ul {
+      justify-content: center;
+    }
+    
+    .page__footer-copyright {
+      text-align: center;
+    }
+  }
+}
+
+@include breakpoint($large) {
+  .page__footer {
+    .page__footer-follow ul {
+      justify-content: flex-start;
+    }
+    
+    .page__footer-copyright {
+      text-align: left;
+    }
+  }
+}
+
+// Remove any white backgrounds
+.page__footer * {
+  background-color: transparent !important;
+}
+
+// Ensure footer stays at bottom
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#main {
+  flex: 1;
+}
+
+// Fix any overlapping issues
+.page__footer {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}

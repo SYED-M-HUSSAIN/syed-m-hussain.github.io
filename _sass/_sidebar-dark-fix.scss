@@ -1,0 +1,160 @@
+/* Sidebar Dark Theme Additional Fixes */
+
+// Ensure sidebar has proper background
+.sidebar {
+  background-color: transparent !important;
+  
+  @include breakpoint($large) {
+    background-color: transparent !important;
+  }
+}
+
+// Fix any white text issues in sidebar
+.sidebar__right {
+  background-color: transparent !important;
+  
+  * {
+    background-color: transparent !important;
+  }
+}
+
+// Author profile in sidebar - text fixes
+.author-profile {
+  background-color: transparent !important;
+  
+  // Location text
+  p, span {
+    color: #c9d1d9 !important;
+  }
+  
+  // All text elements
+  * {
+    color: #c9d1d9 !important;
+  }
+}
+
+// Specific fixes for location and employer
+.author__urls-wrapper {
+  .author__urls {
+    li {
+      color: #c9d1d9 !important;
+      
+      // Text without links (like location)
+      &:not(:has(a)) {
+        color: #c9d1d9 !important;
+        padding-left: 0;
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+// Fix for non-link items in author urls
+.author__urls.social-icons {
+  li {
+    // Items without anchors (location, employer name)
+    &:not(:has(a)) {
+      color: #c9d1d9 !important;
+      display: flex;
+      align-items: center;
+      
+      .fa, .fas, .far, .fab {
+        color: #8b949e !important;
+        margin-right: 8px;
+        width: 16px;
+        text-align: center;
+      }
+    }
+    
+    // All text should be visible
+    color: #c9d1d9 !important;
+  }
+}
+
+// Override any inline styles that might be setting white
+.sidebar [style*="color: white"],
+.sidebar [style*="color:#fff"],
+.sidebar [style*="color: #fff"],
+.sidebar [style*="color:#ffffff"],
+.sidebar [style*="color: #ffffff"] {
+  color: #c9d1d9 !important;
+}
+
+// Ensure icons and text alignment
+.author__urls.social-icons li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  
+  svg, i {
+    flex-shrink: 0;
+    width: 20px;
+    margin-right: 5px;
+    color: #8b949e !important;
+  }
+  
+  // Text content (for non-link items)
+  > span:not(.fa):not(.fas):not(.far):not(.fab):not(.ai),
+  > text {
+    color: #c9d1d9 !important;
+  }
+}
+
+// Make absolutely sure all sidebar text is visible
+.sidebar {
+  color: #c9d1d9 !important;
+  
+  * {
+    color: inherit !important;
+  }
+  
+  a {
+    color: #c9d1d9 !important;
+    
+    &:hover {
+      color: #58a6ff !important;
+    }
+  }
+  
+  // Non-link text
+  p, span, div {
+    color: #c9d1d9 !important;
+  }
+  
+  // List items
+  li {
+    color: #c9d1d9 !important;
+  }
+}
+
+// Fix bio text
+.author__bio {
+  p {
+    color: #8b949e !important;
+    font-size: 0.9em;
+  }
+}
+
+// Fix author name
+.author__name {
+  color: #c9d1d9 !important;
+  font-weight: bold;
+}
+
+// Ensure no background colors interfere
+.author__avatar,
+.author__content,
+.author__urls-wrapper,
+.author__urls {
+  background-color: transparent !important;
+}
+
+// Fix visibility of text that comes after icons
+.fa-fw + span,
+.fas + span,
+.far + span,
+.fab + span,
+.ai + span {
+  color: #c9d1d9 !important;
+  margin-left: 2px;
+}

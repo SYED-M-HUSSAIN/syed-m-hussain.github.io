@@ -1,0 +1,376 @@
+/* Additional Dark Theme Overrides for Complete Coverage */
+
+// Global overrides
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #30363d #0d1117;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 6px;
+  
+  &:hover {
+    background: #484f58;
+  }
+}
+
+// Text selection
+::selection {
+  background-color: #388bfd40;
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: #388bfd40;
+  color: inherit;
+}
+
+// Links in all contexts
+a {
+  color: #58a6ff !important;
+  text-decoration: none;
+  
+  &:hover, &:focus {
+    color: #79c0ff !important;
+    text-decoration: underline;
+  }
+  
+  &:visited {
+    color: #8b949e !important;
+  }
+}
+
+// Ensure all text elements are properly colored
+p, span, div, section, article, aside, header, footer {
+  color: #c9d1d9 !important;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #c9d1d9 !important;
+  border-bottom-color: #30363d !important;
+}
+
+// Lists
+ul, ol {
+  li {
+    color: #c9d1d9 !important;
+    
+    &::marker {
+      color: #8b949e !important;
+    }
+  }
+}
+
+// Definition lists
+dl {
+  dt {
+    color: #c9d1d9 !important;
+    font-weight: bold;
+  }
+  
+  dd {
+    color: #8b949e !important;
+  }
+}
+
+// Horizontal rules
+hr {
+  border-color: #30363d !important;
+  background-color: #30363d !important;
+}
+
+// Images
+img {
+  opacity: 0.9;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Forms
+fieldset {
+  border-color: #30363d !important;
+}
+
+legend {
+  color: #c9d1d9 !important;
+}
+
+label {
+  color: #c9d1d9 !important;
+}
+
+// Placeholder text
+::placeholder {
+  color: #6e7681 !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #6e7681 !important;
+}
+
+::-ms-input-placeholder {
+  color: #6e7681 !important;
+}
+
+// Focus states
+*:focus {
+  outline-color: #58a6ff !important;
+}
+
+// Disabled elements
+[disabled], .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+// Tooltips
+.tooltip {
+  background-color: #161b22 !important;
+  color: #c9d1d9 !important;
+  border: 1px solid #30363d !important;
+}
+
+// Modals and overlays
+.modal {
+  background-color: #0d1117 !important;
+  color: #c9d1d9 !important;
+  
+  .modal-content {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+  }
+  
+  .modal-header, .modal-footer {
+    border-color: #30363d !important;
+  }
+}
+
+// Overlay backgrounds
+.overlay {
+  background-color: rgba(13, 17, 23, 0.8) !important;
+}
+
+// Tags and badges
+.tag, .badge {
+  background-color: #1f6feb !important;
+  color: #ffffff !important;
+  border: 1px solid #30363d !important;
+}
+
+// Alerts and messages
+.alert, .message, .notification {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  color: #c9d1d9 !important;
+  
+  &.success {
+    background-color: #0d2819 !important;
+    border-color: #2ea043 !important;
+    color: #3fb950 !important;
+  }
+  
+  &.error, &.danger {
+    background-color: #2d1519 !important;
+    border-color: #f85149 !important;
+    color: #f85149 !important;
+  }
+  
+  &.warning {
+    background-color: #2d2111 !important;
+    border-color: #d29922 !important;
+    color: #e3b341 !important;
+  }
+  
+  &.info {
+    background-color: #161b22 !important;
+    border-color: #1f6feb !important;
+    color: #58a6ff !important;
+  }
+}
+
+// Progress bars
+.progress {
+  background-color: #161b22 !important;
+  
+  .progress-bar {
+    background-color: #1f6feb !important;
+  }
+}
+
+// Dropdown menus
+.dropdown-menu {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  
+  .dropdown-item {
+    color: #c9d1d9 !important;
+    
+    &:hover, &:focus {
+      background-color: #21262d !important;
+      color: #58a6ff !important;
+    }
+  }
+  
+  .dropdown-divider {
+    border-color: #30363d !important;
+  }
+}
+
+// Tabs
+.nav-tabs {
+  border-bottom-color: #30363d !important;
+  
+  .nav-link {
+    color: #8b949e !important;
+    
+    &:hover {
+      border-color: #30363d !important;
+      color: #c9d1d9 !important;
+    }
+    
+    &.active {
+      background-color: #0d1117 !important;
+      border-color: #30363d !important;
+      border-bottom-color: #0d1117 !important;
+      color: #c9d1d9 !important;
+    }
+  }
+}
+
+// Cards
+.card {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  
+  .card-header, .card-footer {
+    background-color: #21262d !important;
+    border-color: #30363d !important;
+  }
+  
+  .card-title {
+    color: #c9d1d9 !important;
+  }
+  
+  .card-text {
+    color: #8b949e !important;
+  }
+}
+
+// Lists groups
+.list-group {
+  .list-group-item {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+    color: #c9d1d9 !important;
+    
+    &:hover {
+      background-color: #21262d !important;
+    }
+    
+    &.active {
+      background-color: #1f6feb !important;
+      border-color: #1f6feb !important;
+    }
+  }
+}
+
+// Ensure wrapper and container have dark background
+.wrapper, .container, .container-fluid {
+  background-color: #0d1117 !important;
+}
+
+// Page wrapper specific
+.page-wrapper {
+  background-color: #0d1117 !important;
+}
+
+// Main content wrapper
+.main-content-wrap {
+  background-color: #0d1117 !important;
+}
+
+// Ensure all sections have dark background
+section {
+  background-color: #0d1117 !important;
+  
+  &:nth-child(even) {
+    background-color: #161b22 !important;
+  }
+}
+
+// Academic/research specific elements
+.publication-list {
+  .publication-item {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+    
+    &:hover {
+      background-color: #21262d !important;
+    }
+  }
+}
+
+.project-card {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  
+  &:hover {
+    background-color: #21262d !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// CV/Resume specific
+.cv-section {
+  border-bottom: 1px solid #30363d !important;
+}
+
+.timeline-item {
+  &::before {
+    background-color: #30363d !important;
+  }
+  
+  .timeline-marker {
+    background-color: #1f6feb !important;
+    border: 2px solid #0d1117 !important;
+  }
+}
+
+// Make sure background doesn't show through
+html {
+  background-color: #0d1117 !important;
+}
+
+// Ensure no white backgrounds remain
+[style*="background-color: white"],
+[style*="background-color:#fff"],
+[style*="background-color: #fff"],
+[style*="background-color:#ffffff"],
+[style*="background-color: #ffffff"],
+[style*="background-color: rgb(255, 255, 255)"] {
+  background-color: #0d1117 !important;
+}
+
+// Override any inline white text that might be hard to see
+[style*="color: white"],
+[style*="color:#fff"],
+[style*="color: #fff"],
+[style*="color:#ffffff"],
+[style*="color: #ffffff"],
+[style*="color: rgb(255, 255, 255)"] {
+  color: #c9d1d9 !important;
+}

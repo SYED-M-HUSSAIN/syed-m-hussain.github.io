@@ -18,7 +18,7 @@ I'm a Machine Learning Engineer at Beam AI specializing in Large Language Models
 - **GitHub**: [SYED-M-HUSSAIN](https://github.com/SYED-M-HUSSAIN)
 - **Google Scholar**: [Profile](https://scholar.google.com/citations?user=TqMFlMYAAAAJ&hl=en)
 - **IEEE Xplore**: [Author Page](https://ieeexplore.ieee.org/author/949288735174528)
-- **Email**: sh06892@st.habib.edu.pk
+- **Email**: syed.hussain@beam.ai
 
 ## 🙏 Acknowledgments
 

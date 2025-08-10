@@ -14,7 +14,7 @@ redirect_from:
 
 **Karachi, Pakistan**  
 **P:** +92 3453887230  
-**E:** [sh06892@st.habib.edu.pk](mailto:sh06892@st.habib.edu.pk)  
+**E:** [syed.hussain@beam.ai](mailto:syed.hussain@beam.ai)  
 **[LinkedIn](https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/)** | **[GitHub](https://github.com/SYED-M-HUSSAIN)** | **[Google Scholar](https://scholar.google.com/citations?user=TqMFlMYAAAAJ&hl=en)**
 
 ---

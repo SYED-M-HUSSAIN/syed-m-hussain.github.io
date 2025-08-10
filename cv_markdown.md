@@ -1,6 +1,6 @@
 # Syed Muhammad Hussain
 
-Karachi, Pakistan | P: +92 3453887230 | sh06892@st.habib.edu.pk | [LinkedIn](https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/) | [Github](https://github.com/SYED-M-HUSSAIN) | [Google Scholar](https://scholar.google.com/citations?user=TqMFlMYAAAAJ&hl=en)
+Karachi, Pakistan | P: +92 3453887230 | syed.hussain@beam.ai | [LinkedIn](https://www.linkedin.com/in/syed-muhammad-hussain-00b2a7214/) | [Github](https://github.com/SYED-M-HUSSAIN) | [Google Scholar](https://scholar.google.com/citations?user=TqMFlMYAAAAJ&hl=en)
 
 ## EDUCATION
 
